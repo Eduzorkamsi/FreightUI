@@ -16,40 +16,49 @@ const Details = () => {
             Export
           </button>
         </div>
+
         <input
-          className="ml-2"
+          className="pl-1 ml-2 input-bg input-border"
           type="text"
           id="fname"
           name="fname"
-          value="John"
+          value="cbm"
+          placeholder="Total Volume"
         />
         <br />
         <input
-          className="ml-2"
+          className="pl-1 ml-2 input-bg input-border"
           type="text"
           id="fname"
           name="fname"
-          value="John"
+          value="kg"
+          placeholder="Total Weight"
         />
         <br />
       </div>
       <div className="flex row mt-3">
-        <input type="text" id="fname" name="fname" value="John" />
-        <br />
         <input
-          className="ml-2"
+          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"
           type="text"
           id="fname"
           name="fname"
-          value="John"
+          value="Ready Date"
         />
         <br />
         <input
-          className="ml-2"
+          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"
           type="text"
           id="fname"
           name="fname"
-          value="John"
+          value="Incoterms"
+        />
+        <br />
+        <input
+          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"
+          type="text"
+          id="fname"
+          name="fname"
+          value="Total Cargo Value"
         />
         <br />
       </div>

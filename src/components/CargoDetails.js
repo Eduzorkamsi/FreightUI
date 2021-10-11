@@ -22,21 +22,27 @@ const CargoDetails = () => {
         </button>
       </div>
       <div className="flex row mt-5">
-        <input
-          className="pt-1 pb-1 pl-1 pr-1 input-bg input-border"
-          type="text"
-          id="fname"
-          name="fname"
-          value="From City or port"
-        />
+        <div className="flex column">
+          <label className="total">Total Volume</label>
 
-        <input
-          className="ml-2 pt-1 pb-1 pl-1 pr-1 input-bg input-border"
-          type="text"
-          id="fname"
-          name="fname"
-          value="From City or port"
-        />
+          <input
+            className=" pt-1 pb-1 pl-1 pr-1 input-bg input-border val"
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="cbm"
+          />
+        </div>
+        <div className="ml-2 flex column">
+          <label className="total">Total Weight</label>
+          <input
+            className=" pt-1 pb-1 pl-1 pr-1 input-bg input-border val"
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="kg"
+          />
+        </div>
       </div>
     </div>
   );

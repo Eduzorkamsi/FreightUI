@@ -327,3 +327,18 @@ input:checked + .slider:before {
 .text-blue {
   color: #4e70b4;
 }
+
+.total {
+  z-index: 1;
+  opacity: 1;
+  margin-bottom: -8px;
+  margin-left: 1vw;
+}
+
+.val::placeholder {
+  color: #c3c9cd;
+}
+
+.val {
+  height: 5vh;
+}

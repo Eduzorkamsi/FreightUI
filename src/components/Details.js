@@ -18,21 +18,20 @@ const Details = () => {
         </div>
 
         <input
-          className="pl-1 ml-2 input-bg input-border"
+          className="ml-2 pt-1 pb-1 pl-1 pr-1 input-bg input-border"
           type="text"
           id="fname"
           name="fname"
-          value="cbm"
-          placeholder="Total Volume"
+          value="From City or port"
         />
         <br />
+
         <input
-          className="pl-1 ml-2 input-bg input-border"
+          className="ml-2 pt-1 pb-1 pl-1 pr-1 input-bg input-border"
           type="text"
           id="fname"
           name="fname"
-          value="kg"
-          placeholder="Total Weight"
+          value="From City or port"
         />
         <br />
       </div>

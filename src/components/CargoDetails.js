@@ -10,7 +10,7 @@ const CargoDetails = () => {
             <input type="checkbox" checked />
             <span class="slider round"></span>
           </label>
-          <h5 className="ml-1">Dangerous Cargo (ex. Chemicals, Battery)</h5>
+          <h5>Dangerous Cargo (ex. Chemicals, Battery)</h5>
         </div>
       </div>
       <div className="flex row"></div>

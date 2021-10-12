@@ -16,55 +16,81 @@ const Details = () => {
             Export
           </button>
         </div>
-        <div>
+        <div className="flex row">
           <div className="ml-2">
+            <i
+              class="material-icons absolute ml-2 mt-1"
+              style={{ fontSize: "16px" }}
+            >
+              location_on
+            </i>
             <input
-              className="ml-1 mr-5 pt-1 pb-1 pl-1 pr-1 input-bg input-border absolute"
+              className="ml-1 pl-3 mr-5 pt-1 pb-1 pl-1 pr-1 input-bg input-border relative"
               type="text"
               id="fname"
               name="fname"
               value="From City or port"
             />
-            <i class="material-icons absolute ml-3">location_on</i>
           </div>
-          <div className="ml-5">
+
+          <div>
+            <i
+              class="material-icons absolute ml-2 mt-1"
+              style={{ fontSize: "16px" }}
+            >
+              location_on
+            </i>
             <input
-              className="ml-5 pt-1 pb-1 pl-1 pr-1 input-bg input-border absolute"
+              className="ml-1 pl-3 mr-5 pt-1 pb-1  pr-1 input-bg input-border relative"
               type="text"
               id="fname"
               name="fname"
               value="From City or port"
             />
-            <i class="material-icons absolute ml-3">location_on</i>
           </div>
         </div>
       </div>
       <div className="flex row mt-3">
-        <input
-          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border "
-          type="text"
-          id="fname"
-          name="fname"
-          value="Ready Date"
-        />
+        <div>
+          <i
+            class="material-icons absolute ml-3 mt-1"
+            style={{ fontSize: "16px" }}
+          >
+            date_range
+          </i>
+          <input
+            className="pt-1 pb-1 pl-3 pr-1 ml-2 input-bg input-border relative"
+            type="text"
+            id="fname"
+            name="fname"
+            value="Ready Date"
+          />
+        </div>
+        <div>
+          <i
+            class="material-icons absolute  mt-1 ml-15"
+            style={{ fontSize: "16px" }}
+          >
+            arrow_drop_down
+          </i>
+          <input
+            className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border relative"
+            type="text"
+            id="fname"
+            name="fname"
+            value="Incoterms"
+          />
+        </div>
 
-        <br />
-        <input
-          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"
-          type="text"
-          id="fname"
-          name="fname"
-          value="Incoterms"
-        />
-        <br />
-        <input
-          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"
-          type="text"
-          id="fname"
-          name="fname"
-          value="Total Cargo Value"
-        />
-        <br />
+        <div>
+          <input
+            className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"
+            type="text"
+            id="fname"
+            name="fname"
+            value="Total Cargo Value"
+          />
+        </div>
       </div>
     </div>
   );

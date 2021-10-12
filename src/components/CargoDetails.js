@@ -13,7 +13,7 @@ const CargoDetails = () => {
           <h5>Dangerous Cargo (ex. Chemicals, Battery)</h5>
         </div>
       </div>
-      <div>
+      <div className="mt-1 mb-1">
         <button className="bg-white pl-1 pr-1 pb-1 pt-1 text-blue button-border2">
           Total Dimensions
         </button>
@@ -21,7 +21,7 @@ const CargoDetails = () => {
           Package Details
         </button>
       </div>
-      <div className="flex row mt-5">
+      <div className="flex row mt-5 mb-5">
         <div className="flex column">
           <label className="total">Total Volume</label>
 

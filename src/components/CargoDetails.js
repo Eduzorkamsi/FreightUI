@@ -26,17 +26,17 @@ const CargoDetails = () => {
           <label className="total">Total Volume</label>
 
           <input
-            className=" pt-1 pb-1 pl-1 pr-1 input-bg input-border val"
+            className=" pt-1 pb-1 pl-1 bg-white pr-1 input-border val"
             type="text"
             id="fname"
             name="fname"
             placeholder="cbm"
           />
         </div>
-        <div className="ml-2 flex column">
+        <div className="ml-2 flex column relative">
           <label className="total">Total Weight</label>
           <input
-            className=" pt-1 pb-1 pl-1 pr-1 input-bg input-border val"
+            className=" pt-1 pb-1 pl-1 pr-1 bg-white input-border val absolute"
             type="text"
             id="fname"
             name="fname"

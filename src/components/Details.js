@@ -8,7 +8,7 @@ const Details = () => {
       </div>
 
       <div className="flex row">
-        <div className="flex row">
+        <div className="flex row ">
           <button className="bg-white pt-1 pb-1 pl-1 pr-1 button-border2">
             Import
           </button>
@@ -16,33 +16,38 @@ const Details = () => {
             Export
           </button>
         </div>
-
-        <input
-          className="ml-2 pt-1 pb-1 pl-1 pr-1 input-bg input-border"
-          type="text"
-          id="fname"
-          name="fname"
-          value="From City or port"
-        />
-        <br />
-
-        <input
-          className="ml-2 pt-1 pb-1 pl-1 pr-1 input-bg input-border"
-          type="text"
-          id="fname"
-          name="fname"
-          value="From City or port"
-        />
-        <br />
+        <div>
+          <div className="ml-2">
+            <input
+              className="ml-1 mr-5 pt-1 pb-1 pl-1 pr-1 input-bg input-border absolute"
+              type="text"
+              id="fname"
+              name="fname"
+              value="From City or port"
+            />
+            <i class="material-icons absolute ml-3">location_on</i>
+          </div>
+          <div className="ml-5">
+            <input
+              className="ml-5 pt-1 pb-1 pl-1 pr-1 input-bg input-border absolute"
+              type="text"
+              id="fname"
+              name="fname"
+              value="From City or port"
+            />
+            <i class="material-icons absolute ml-3">location_on</i>
+          </div>
+        </div>
       </div>
       <div className="flex row mt-3">
         <input
-          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"
+          className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border "
           type="text"
           id="fname"
           name="fname"
           value="Ready Date"
         />
+
         <br />
         <input
           className="pt-1 pb-1 pl-1 pr-1 ml-2 input-bg input-border"

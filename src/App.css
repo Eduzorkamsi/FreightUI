@@ -287,7 +287,7 @@ input:checked + .slider:before {
   padding-right: 1vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  width: 40vh;
+  width: 20vw;
 }
 
 .bg-bar::placeholder {
@@ -331,14 +331,25 @@ input:checked + .slider:before {
 .total {
   z-index: 1;
   opacity: 1;
-  margin-bottom: -8px;
+  margin-top: -12px;
   margin-left: 1vw;
+  position: absolute;
+  background: white;
 }
 
 .val::placeholder {
   color: #c3c9cd;
+  padding-left: 10vw;
 }
 
 .val {
-  height: 5vh;
+  max-height: 5vh;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relatve {
+  position: relative;
 }

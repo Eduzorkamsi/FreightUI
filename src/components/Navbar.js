@@ -6,14 +6,17 @@ const Navbar = () => {
       <div className="flex row align-center ml-1">
         <h3 className="mr-4">Send FREIGHT</h3>
         <div class="search-container">
-          <form style={{ color: "white" }}>
+          <form style={{ color: "white", marginBottom: "3vh" }}>
             <input
-              className="bg-bar"
+              className="bg-bar absolute"
               type="text"
               placeholder="Search.."
               name="search"
             />
-            <i class="fa fa-search icon"></i>
+            <i
+              className="fa fa-search icon absolute mt-1"
+              style={{ marginLeft: "20vw" }}
+            ></i>
           </form>
         </div>
       </div>

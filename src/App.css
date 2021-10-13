@@ -357,3 +357,11 @@ input:checked + .slider:before {
 .ml-15 {
   margin-left: 15vw;
 }
+
+.w-full {
+  width: 100%;
+}
+
+.w-20 {
+  width: 15vw;
+}

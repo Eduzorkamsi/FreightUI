@@ -7,7 +7,7 @@ const Service = () => {
       <div className="flex row text-grey pb-3">
         <div className="mr-2 text-white cards bg-blue pl-1 flex row space">
           <h5>Air Freight</h5>
-          <i class="material-icons pt-3" style={{ fontSize: "36px" }}>
+          <i class="material-icons pt-3 " style={{ fontSize: "36px" }}>
             airplanemode_active
           </i>
         </div>
